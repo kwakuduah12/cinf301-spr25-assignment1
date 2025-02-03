@@ -55,7 +55,47 @@ body {
     border-radius: 8px;
     margin-top: 15px;
   }
-  
+
+/* Featured Gifts Section */
+#featured-gifts {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#featured-gifts h2 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px;
+}
+
+.gift-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gift-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.gift-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gift-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
   table {
     width: 100%;
     border-collapse: collapse;
