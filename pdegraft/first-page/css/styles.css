@@ -90,10 +90,11 @@ body {
     margin-bottom: 10px;
 }
 
-.gift-item h3 {
+figure figcaption {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin: 0;
+    margin: 10px 0 0;
+    text-align: center;
 }
 
   table {
